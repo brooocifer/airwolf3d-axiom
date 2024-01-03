@@ -10,8 +10,8 @@ Brochure: https://web.archive.org/web/20161227010145/http://airwolf3d.com/wp-con
 Support Files: https://airwolf3d.freshdesk.com/support/solutions/13000002887
 
 Directories
-- Cura - Cura Ultimaker Pro slicing software does not natively support this printer
-- Extruder - The Bowden extruder that came with the printer had degraded (cracked) and was unusable
-- Glass - There was no glass plate in the printer when I received it
-- Operating System - What I've learned about the Linux OS
-- Wifi - What I've learned about using the Wifi hotspot
+- cura - Cura Ultimaker Pro slicing software does not natively support this printer
+- extruder - The Bowden extruder that came with the printer had degraded (cracked) and was unusable
+- glass - There was no glass plate in the printer when I received it
+- linaro - What I've learned about the Linux OS
+- wifi - What I've learned about using the Wifi hotspot
