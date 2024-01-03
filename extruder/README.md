@@ -14,14 +14,14 @@ Notes, things I learned:
 - The digital caliper from Harbor Freight was good enough, although margin of error was probably still too high for this reverse engineering effort. I did 6 major revisions to the model to fix measuring errors.
 - In Blender, if you cut too much volume out of an object, you can just create a new 3D object and "glom" it on to the original. I'm sure some engineer somewhere thinks this is a hack and not the proper way to design this, and it makes for a *really* messy model, but frankly, I don't care. It works.
 - A good soundtrack is essential.
-- I printed my first one in PLA on my old 3D printer. I had to modify the part with a drill, bit, and applying some force. The PLA gave enough for this to work, YMMV on other materials.
+- I printed my first one in PLA on my old 3D printer. I had to modify the part with a drill, and by applying some manual force. The PLA gave enough for this to work, YMMV on other materials.
 - Instructions for assembly/disassembly are here: https://airwolf3d.freshdesk.com/support/solutions/articles/5000684875-axiom-extruder-assembly-dissassembly
-- The screw holes for the spring plate are tooo small. I just used a drill with a philips driver to screw the screws in all the way, then backed them all the way out before starting assembly.
-- Similarly, the 3 bolt holes that bolt into the acrylic plates are slightly too small. I used the drill and philips driver on those too before assembly.
-- The bolts that go through the back panel and attach the acrylic plates are a huge pain because you have to reach through the open front door. Get a 2nd person to help if you can. I have long arms and I could barely reassemble it by myself.
-- The hole for the main shaft and bearing is very tight. Snap it in and remove it a couple times before trying to do final assembly, this will "stretch" or erode the PLA enough that it will be a snug fit.
+- The screw holes for the spring plate are too small. I just used a drill with a phillips driver to screw the screws in all the way, then backed them all the way out before starting assembly.
+- Similarly, the 3 bolt holes that bolt into the acrylic plates are slightly too small. I used the drill and phillips driver on those too.
+- The bolts that go through the back panel and attach to the acrylic plates are a huge pain because you have to reach through the open front door with one hand while holding the acrylic plates with the other. Get a 2nd person to help if you can. I have long arms and I could barely reassemble it by myself.
+- The hole for the main shaft and bearing is very tight. Snap it in and remove it a couple times before trying to do final assembly, this will "stretch" or erode the PLA enough that it will end up being a snug fit. I found it impossible to assemble all the parts onto the acrylic plates before I started over and did this first.
 - The hole for the spring that is held in place by the spring plate is still too small. I used a drill and a drill bit to round it out enough that the spring could be inserted and "spring" appropriately.
-- On one of my assembly attempts, the extruder was not fully flush against the acrylic plates. It turns out that the black adapter on the filament tube was not snapped in correctly, and was slightly twisted. Make sure it is snapped in flush with the extruder surface edge.
-- After assebly, I found that loading both ABS and Nylon filament was impossible with the spring plate screwed all the way in. I backed it off almost all the way out, and both filament types are loading easily now.
+- On one of my assembly attempts, the extruder was not fully flush against the acrylic plates. It turns out that the black adapter on the end of the filament tube was not snapped in correctly, and was slightly twisted. Make sure it is snapped in flush with the extruder surface edge.
+- After assembly, I found that loading both ABS and Nylon filament was impossible with the spring plate screwed all the way in. I backed it off almost all the way out to reduce the pressure between the main shaft and the sliding bearing, and now both filament types load easily.
 
-Overall, it was fun, as most reverse-engineering/hacks are.
+Overall, it was fun, as most reverse-engineering/hacks are. Good luck!
