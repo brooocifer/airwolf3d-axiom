@@ -28,3 +28,4 @@ G1 E6 F100                     ; extrude filament back into nozzle and 7mm more
 G92 E0                        ; zero extruder
 M400                         ; clear buffer
 G4 S1                        ; pause
+M117 AXIOM Printing...        ;Put printing message on LCD screen
