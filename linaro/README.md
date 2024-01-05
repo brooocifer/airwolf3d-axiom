@@ -10,3 +10,17 @@ UserID: pi
 Password: raspberry
 
 Something is still wrong - it'll connect to my home network, but not to astroprint.com. NTP doesn't look like it's working, the system thinks it's July 5, 2016
+
+This is part of the problem, the SSL handshake won't work with a certificate from 2024.
+
+sudo service astrobox stop
+
+sudo date --set='2024-01-05'
+
+sudo service astrobox start
+
+That fixed that problem.
+
+Next, the version of Astrobox that is installed is v0.9(2) - performed a check for an update, laterst version is 0.21(3). Do I dare update? Yes, I do.
+
+FAILED!
