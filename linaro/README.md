@@ -1,4 +1,4 @@
-#Linaro
+# Linaro
 
 Looking at the free support docs online, it looks like this runs a version of Linux provided by Linaro (https://en.wikipedia.org/wiki/Linaro). See: https://airwolf3d.freshdesk.com/support/solutions/articles/13000000433-axiom-axiome-enable-the-hotspot- This article shows how to get access to the Linux terminal. (GNU/Linux 3.4.79+ armv71) -- root access without a password on a network/Internet connected device!
 
@@ -24,3 +24,9 @@ That fixed that problem.
 Next, the version of Astrobox that is installed is v0.9(2) - performed a check for an update, laterst version is 0.21(3). Do I dare update? Yes, I do.
 
 FAILED!
+
+Apparently the NTP time issue is easily fixed with: 
+
+sudo timedatectl set-ntp True
+
+Then "timedatectl status" should show the current, correct time
