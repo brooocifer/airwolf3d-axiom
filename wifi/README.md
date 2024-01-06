@@ -9,7 +9,7 @@ I read through the first article, and with some quick scanning, was happy to see
 
 1. Create an account at astroprint.com (Note: use https://www.astroprint.com. If you don't use www, there is a certificate error)
 2. Follow the steps in the first article above. I used my iPhone to do this.
-- Note that step 7 of the article failed for me (I corrected the issue later, see below), so I just skipped the step using the "skip" link on the page.
+- Note that step 7 of the article failed for me (The issue was that the raspberry pi thought it was July 5, 2016. I corrected the issue later, see below), so I just skipped the step using the "skip" link on the page.
 - Note also that step 8 of the article requires a USB cable to be connected (near the extruder on the back of the printer). You have to leave the USB cable connected in this manner for cloud printing to work via astroprint.com.
 3. The second article implies that the Wi-Fi is enabled via a Linaro Linux "Wolfbox". In reality, there is a raspberry pi built into the back panel. You don't need to hook up a keyboard and monitor like the article implies. Once you have connected to your home network, you can just use ssh (port 22) or http (port 80) to connect to the raspberry pi.
 4. Just a suggestion, I set a dedicated IP address for my printer on my network, and rebooted the printer to enable it. Browse to the IP address (dedicated or dynamic) in a browser to test that your printer is connected to the network.
