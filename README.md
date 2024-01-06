@@ -13,5 +13,4 @@ Directories
 - cura - Cura Ultimaker Pro slicing software does not natively support this printer
 - extruder - The Bowden extruder that came with the printer had degraded (cracked) and was unusable
 - glass - There was no glass plate in the printer when I received it
-- linaro - What I've learned about the Linux OS
 - wifi - What I've learned about using the Wifi hotspot
