@@ -21,7 +21,7 @@ I read through the first article, and with some quick scanning, was happy to see
 - sudo service astrobox start
 - exit
 6. Browse to the local (astrobox) web page: http://192.168.10.40
-7. Use the hamburger menu in the upper right, and login to astroprint.com
+7. Use the hamburger menu in the upper left, and login to astroprint.com
 8. Go to "Settings"
 9. Validate that you are connected to the printer at 250,000 baud.
 10. Software Update - mine is at v0.9(2) - updates fail. Essentially this version of the Raspberry Pi OS is no longer supported. Don't bother trying to update
